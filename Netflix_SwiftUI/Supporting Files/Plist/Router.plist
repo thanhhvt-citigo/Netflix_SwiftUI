@@ -1,12 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   Router.plist
-   Netflix_SwiftUI
-
-   Created by thanh tien on 02/07/2022.
-   Copyright (c) 2022 ___ORGANIZATIONNAME___. All rights reserved.
--->
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>favorite</key>
+	<string>/favorite</string>
+	<key>trending</key>
+	<string>/trending</string>
+	<key>credits</key>
+	<string>/credits</string>
+	<key>similar</key>
+	<string>/similar</string>
+	<key>recommendations</key>
+	<string>/recommendations</string>
+	<key>videos</key>
+	<string>/videos</string>
+	<key>watchList</key>
+	<string>/watch_list</string>
+	<key>account</key>
+	<string>/account</string>
+	<key>latest</key>
+	<string>/latest</string>
+	<key>discover</key>
+	<string>/discover</string>
+	<key>session</key>
+	<string>/session</string>
+	<key>validateWithLogin</key>
+	<string>/validate_with_login</string>
+	<key>new</key>
+	<string>/new</string>
+	<key>token</key>
+	<string>/token</string>
+	<key>authentication</key>
+	<string>/authentication</string>
+	<key>onTheAir</key>
+	<string>/on_the_air</string>
+	<key>top_rated</key>
+	<string>/top_rated</string>
+	<key>airingToday</key>
+	<string>/airing_today</string>
+	<key>nowPlaying</key>
+	<string>/now_playing</string>
+	<key>tv</key>
+	<string>/tv</string>
+	<key>list</key>
+	<string>/list</string>
+	<key>genre</key>
+	<string>/genre</string>
+	<key>popular</key>
+	<string>/popular</string>
+	<key>movies</key>
+	<string>/movies</string>
+	<key>movie</key>
+	<string>/movie</string>
+	<key>version3</key>
+	<string>/3</string>
+	<key>version4</key>
+	<string>/4</string>
+	<key>YoutubeImageURLFormat</key>
+	<string>https://img.youtube.com/vi/%@/hqdefault.jpg</string>
+	<key>ImageBaseURL</key>
+	<string>https://image.tmdb.org/t/p</string>
+	<key>privacyURL</key>
+	<string>https://help.netflix.com/legal/privacy</string>
+	<key>helpURL</key>
+	<string>https://help.netflix.com/en</string>
+	<key>BaseURL</key>
+	<string>https://api.themoviedb.org</string>
+</dict>
 </plist>

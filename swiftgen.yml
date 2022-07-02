@@ -1,0 +1,27 @@
+strings:
+  inputs:
+    - Netflix_SwiftUI/Supporting Files/Localization/en.lproj/Localizable.strings
+  outputs:
+    - templateName: structured-swift5
+      output: Netflix_SwiftUI/Supporting Files/Generated/Strings.swift
+fonts:
+  inputs:
+    - Netflix_SwiftUI/Supporting Files/Fonts
+  outputs:
+    - templateName: swift5
+      output: Netflix_SwiftUI/Supporting Files/Generated/Fonts.swift
+plist:
+  inputs:
+    - Netflix_SwiftUI/Supporting Files/Plist
+  outputs:
+    templateName: runtime-swift5
+    output: Netflix_SwiftUI/Supporting Files/Generated/Plist.swift
+    params:
+        enumName: Router
+xcassets:
+  - inputs:
+      - Netflix_SwiftUI/Supporting Files/Assets.xcassets
+      - Netflix_SwiftUI/Supporting Files/Colors.xcassets
+    outputs:
+      - templateName: swift5
+        output: Netflix_SwiftUI/Supporting Files/Generated/Assets.swift

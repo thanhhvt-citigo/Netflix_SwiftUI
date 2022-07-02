@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+enum APIResult<T> {
+    case value(T)
+    case error(Error)
+}
