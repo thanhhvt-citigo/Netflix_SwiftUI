@@ -20,7 +20,12 @@ class SplashVC: Controller<SplashVM> {
     }
     
     private func setupBindings() {
-        
+        vm.showOnboardingTrigger
+            .sink { _ in
+                let onboardingVC = OnboardingVC(vm: .init())
+                UIApplication.shared.currentWindow?.switchRootViewController(to: UINavigationController(rootViewController: onboardingVC))
+            }
+            .store(in: &cancellables)
     }
     
     private func setupHostingController() {

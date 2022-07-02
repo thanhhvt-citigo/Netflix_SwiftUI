@@ -13,6 +13,16 @@
 		0C3245962870CA3800BFBD12 /* SessionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3245952870CA3800BFBD12 /* SessionResponse.swift */; };
 		0C3245992870CA8100BFBD12 /* AccountDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3245982870CA8100BFBD12 /* AccountDetail.swift */; };
 		0C32459C2870CC3D00BFBD12 /* UIWindow+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C32459B2870CC3D00BFBD12 /* UIWindow+Extensions.swift */; };
+		0C32459F2870D6AA00BFBD12 /* PagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C32459E2870D6AA00BFBD12 /* PagerView.swift */; };
+		0C3245A22870D76F00BFBD12 /* OnboardingVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3245A12870D76F00BFBD12 /* OnboardingVM.swift */; };
+		0C3245A52870D79C00BFBD12 /* OnboardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3245A42870D79C00BFBD12 /* OnboardingContainerView.swift */; };
+		0C3245A72870D7A600BFBD12 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3245A62870D7A600BFBD12 /* OnboardingView.swift */; };
+		0C3245AA2870D7B700BFBD12 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3245A82870D7B700BFBD12 /* OnboardingVC.swift */; };
+		0C3245AB2870D7B700BFBD12 /* OnboardingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C3245A92870D7B700BFBD12 /* OnboardingVC.xib */; };
+		0C3245AD2870DED500BFBD12 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3245AC2870DED500BFBD12 /* UIApplication+Extensions.swift */; };
+		0C3245AF2870DFC300BFBD12 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3245AE2870DFC300BFBD12 /* NavigationController.swift */; };
+		0C3245B22870E32600BFBD12 /* SwiftUI+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3245B12870E32600BFBD12 /* SwiftUI+Extensions.swift */; };
+		0C3245B52870E40100BFBD12 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3245B42870E40100BFBD12 /* PageControl.swift */; };
 		0C61352C2870222000F234DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C61352B2870222000F234DB /* AppDelegate.swift */; };
 		0C6135302870222000F234DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C61352F2870222000F234DB /* ViewController.swift */; };
 		0C6135332870222000F234DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6135312870222000F234DB /* Main.storyboard */; };
@@ -100,6 +110,16 @@
 		0C3245952870CA3800BFBD12 /* SessionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionResponse.swift; sourceTree = "<group>"; };
 		0C3245982870CA8100BFBD12 /* AccountDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetail.swift; sourceTree = "<group>"; };
 		0C32459B2870CC3D00BFBD12 /* UIWindow+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extensions.swift"; sourceTree = "<group>"; };
+		0C32459E2870D6AA00BFBD12 /* PagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerView.swift; sourceTree = "<group>"; };
+		0C3245A12870D76F00BFBD12 /* OnboardingVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVM.swift; sourceTree = "<group>"; };
+		0C3245A42870D79C00BFBD12 /* OnboardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerView.swift; sourceTree = "<group>"; };
+		0C3245A62870D7A600BFBD12 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		0C3245A82870D7B700BFBD12 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
+		0C3245A92870D7B700BFBD12 /* OnboardingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingVC.xib; sourceTree = "<group>"; };
+		0C3245AC2870DED500BFBD12 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+		0C3245AE2870DFC300BFBD12 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		0C3245B12870E32600BFBD12 /* SwiftUI+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI+Extensions.swift"; sourceTree = "<group>"; };
+		0C3245B42870E40100BFBD12 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		0C6135282870222000F234DB /* Netflix_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netflix_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C61352B2870222000F234DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C61352F2870222000F234DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -239,8 +259,53 @@
 			isa = PBXGroup;
 			children = (
 				0C32459B2870CC3D00BFBD12 /* UIWindow+Extensions.swift */,
+				0C3245AC2870DED500BFBD12 /* UIApplication+Extensions.swift */,
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		0C32459D2870D6A300BFBD12 /* PagerView */ = {
+			isa = PBXGroup;
+			children = (
+				0C32459E2870D6AA00BFBD12 /* PagerView.swift */,
+			);
+			path = PagerView;
+			sourceTree = "<group>";
+		};
+		0C3245A02870D76000BFBD12 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				0C3245A32870D78E00BFBD12 /* Views */,
+				0C3245A12870D76F00BFBD12 /* OnboardingVM.swift */,
+				0C3245A82870D7B700BFBD12 /* OnboardingVC.swift */,
+				0C3245A92870D7B700BFBD12 /* OnboardingVC.xib */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		0C3245A32870D78E00BFBD12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C3245A42870D79C00BFBD12 /* OnboardingContainerView.swift */,
+				0C3245A62870D7A600BFBD12 /* OnboardingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0C3245B02870E31500BFBD12 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				0C3245B12870E32600BFBD12 /* SwiftUI+Extensions.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		0C3245B32870E3F500BFBD12 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				0C3245B42870E40100BFBD12 /* PageControl.swift */,
+			);
+			path = PageControl;
 			sourceTree = "<group>";
 		};
 		0C61351F2870222000F234DB = {
@@ -364,6 +429,7 @@
 				0CC22BAE28707B2D00BD6A7D /* FixedHostingController.swift */,
 				0CC22BB028707B8200BD6A7D /* Controller.swift */,
 				0CC22BB228707B9D00BD6A7D /* ViewModel.swift */,
+				0C3245AE2870DFC300BFBD12 /* NavigationController.swift */,
 			);
 			path = Based;
 			sourceTree = "<group>";
@@ -371,6 +437,8 @@
 		0CC22B4D2870557500BD6A7D /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				0C3245B32870E3F500BFBD12 /* PageControl */,
+				0C32459D2870D6A300BFBD12 /* PagerView */,
 				0CC22BE2287087BB00BD6A7D /* PlayerView */,
 			);
 			path = CustomView;
@@ -379,6 +447,7 @@
 		0CC22B4E2870557900BD6A7D /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				0C3245A02870D76000BFBD12 /* Onboarding */,
 				0CC22BDA2870864100BD6A7D /* Splash */,
 			);
 			path = Screen;
@@ -412,6 +481,7 @@
 		0CC22B512870559A00BD6A7D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				0C3245B02870E31500BFBD12 /* SwiftUI */,
 				0C32459A2870CC2C00BFBD12 /* UIKit */,
 				0CC22BB428707EFA00BD6A7D /* Combine */,
 			);
@@ -610,8 +680,8 @@
 		0CC22BDA2870864100BD6A7D /* Splash */ = {
 			isa = PBXGroup;
 			children = (
-				0CC22BDE2870865100BD6A7D /* SplashVM.swift */,
 				0CC22BDD2870864B00BD6A7D /* Views */,
+				0CC22BDE2870865100BD6A7D /* SplashVM.swift */,
 				0CC22BED2870AD3900BD6A7D /* SplashVC.swift */,
 				0CC22BEE2870AD3900BD6A7D /* SplashVC.xib */,
 			);
@@ -733,6 +803,7 @@
 				0CC22BC22870857D00BD6A7D /* Netflix_N_video_large.mp4 in Resources */,
 				0CC22BD7287085DD00BD6A7D /* dtmf_50.wav in Resources */,
 				0CC22BD0287085DD00BD6A7D /* dtmf_53.wav in Resources */,
+				0C3245AB2870D7B700BFBD12 /* OnboardingVC.xib in Resources */,
 				0CC22B85287059E100BD6A7D /* Router.plist in Resources */,
 				0C6135352870222100F234DB /* Assets.xcassets in Resources */,
 				0CC22B9A28705E3600BD6A7D /* playPause.json in Resources */,
@@ -758,18 +829,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C3245AD2870DED500BFBD12 /* UIApplication+Extensions.swift in Sources */,
 				0CC22B82287059B300BD6A7D /* Cast.swift in Sources */,
 				0CC22B8A28705CDA00BD6A7D /* Constants.swift in Sources */,
 				0CC22BDF2870865100BD6A7D /* SplashVM.swift in Sources */,
 				0CC22BAF28707B2D00BD6A7D /* FixedHostingController.swift in Sources */,
 				0CC22B792870595F00BD6A7D /* TVEpisode.swift in Sources */,
 				0CC22BBB287083F900BD6A7D /* UserDefaultsManager.swift in Sources */,
+				0C3245AF2870DFC300BFBD12 /* NavigationController.swift in Sources */,
 				0CC22BB628707F0B00BD6A7D /* Publisher+Extensions.swift in Sources */,
 				0C32459C2870CC3D00BFBD12 /* UIWindow+Extensions.swift in Sources */,
 				0CC22BA12870609800BD6A7D /* NetworkManager.swift in Sources */,
+				0C3245A52870D79C00BFBD12 /* OnboardingContainerView.swift in Sources */,
 				0C3245902870C91200BFBD12 /* NewRequestTokenResponse.swift in Sources */,
 				0CC22BEF2870AD3900BD6A7D /* SplashVC.swift in Sources */,
 				0C6135302870222000F234DB /* ViewController.swift in Sources */,
+				0C32459F2870D6AA00BFBD12 /* PagerView.swift in Sources */,
+				0C3245B22870E32600BFBD12 /* SwiftUI+Extensions.swift in Sources */,
 				0CC22BB328707B9D00BD6A7D /* ViewModel.swift in Sources */,
 				0CC22B702870590900BD6A7D /* Language.swift in Sources */,
 				0CC22BA9287061A200BD6A7D /* APIResult.swift in Sources */,
@@ -778,8 +854,10 @@
 				0C3245992870CA8100BFBD12 /* AccountDetail.swift in Sources */,
 				0CC22B6E287058F000BD6A7D /* Country.swift in Sources */,
 				0CC22B80287059A400BD6A7D /* Crew.swift in Sources */,
+				0C3245A22870D76F00BFBD12 /* OnboardingVM.swift in Sources */,
 				0C32458D2870C8C200BFBD12 /* AuthenticationUseCase.swift in Sources */,
 				0CC22BEA28708CB100BD6A7D /* Utility.swift in Sources */,
+				0C3245AA2870D7B700BFBD12 /* OnboardingVC.swift in Sources */,
 				0CC22B682870588E00BD6A7D /* Assets.swift in Sources */,
 				0CC22BA72870612900BD6A7D /* APIClient.swift in Sources */,
 				0CC22B44287054D500BD6A7D /* ServiceContainer.swift in Sources */,
@@ -792,6 +870,8 @@
 				0CC22BA5287060FA00BD6A7D /* HTTPStatusCodes.swift in Sources */,
 				0CC22B732870592900BD6A7D /* Company.swift in Sources */,
 				0CC22B6B287058DA00BD6A7D /* Video.swift in Sources */,
+				0C3245A72870D7A600BFBD12 /* OnboardingView.swift in Sources */,
+				0C3245B52870E40100BFBD12 /* PageControl.swift in Sources */,
 				0CC22B672870588E00BD6A7D /* Fonts.swift in Sources */,
 				0C3245962870CA3800BFBD12 /* SessionResponse.swift in Sources */,
 				0C3245942870C99500BFBD12 /* AuthenticationRepository.swift in Sources */,

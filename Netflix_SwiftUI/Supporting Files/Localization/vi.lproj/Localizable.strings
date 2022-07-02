@@ -6,3 +6,11 @@
   
 */
 "sign_in_button" = "Sign in";
+"onboarding_navigation_help" = "Help";
+"onboarding_navigation_privacy" = "Privacy";
+"onboarding_watch_on_any_device_title" = "Watch on any device";
+"onboarding_watch_on_any_device_message" = "Stream on your phone, table, laptop, and TV without paying more.";
+"onboarding_download_title" = "3,2,1...Download!";
+"onboarding_download_message" = "Always have something to watch offline";
+"onboarding_no_pesky_contracts_title" = "No pesky contracts";
+"onboarding_no_pesky_contracts_message" = "Cancel anytime";

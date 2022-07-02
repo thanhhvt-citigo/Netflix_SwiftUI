@@ -25,6 +25,8 @@ class SplashVM: ViewModel, ObservableObject {
     private let authenticationRepository: AuthenticationUseCase = ServiceContainer.get()
     private var userDefaultsManager: UserDefaultsManager = ServiceContainer.get()
     
+    let showOnboardingTrigger = PassthroughSubject<Void, Never>()
+    
     override init() {
         super.init()
         username = userDefaultsManager.username
@@ -80,8 +82,7 @@ class SplashVM: ViewModel, ObservableObject {
                     print("main")
                     // go to main
                 } else {
-                    print("sign in")
-                    // go to sign in
+                    self?.showOnboardingTrigger.send()
                 }
             }
             .store(in: &cancellables)
