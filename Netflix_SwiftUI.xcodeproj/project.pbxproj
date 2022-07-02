@@ -23,6 +23,10 @@
 		0C3245AF2870DFC300BFBD12 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3245AE2870DFC300BFBD12 /* NavigationController.swift */; };
 		0C3245B22870E32600BFBD12 /* SwiftUI+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3245B12870E32600BFBD12 /* SwiftUI+Extensions.swift */; };
 		0C3245B52870E40100BFBD12 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3245B42870E40100BFBD12 /* PageControl.swift */; };
+		0C3245B82870E7D200BFBD12 /* WebViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3245B72870E7D200BFBD12 /* WebViewModel.swift */; };
+		0C3245BB2870E81100BFBD12 /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3245B92870E81100BFBD12 /* WebVC.swift */; };
+		0C3245BC2870E81100BFBD12 /* WebVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C3245BA2870E81100BFBD12 /* WebVC.xib */; };
+		0C3245BE2870E8DD00BFBD12 /* WKWebView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3245BD2870E8DD00BFBD12 /* WKWebView+Extensions.swift */; };
 		0C61352C2870222000F234DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C61352B2870222000F234DB /* AppDelegate.swift */; };
 		0C6135302870222000F234DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C61352F2870222000F234DB /* ViewController.swift */; };
 		0C6135332870222000F234DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6135312870222000F234DB /* Main.storyboard */; };
@@ -120,6 +124,10 @@
 		0C3245AE2870DFC300BFBD12 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		0C3245B12870E32600BFBD12 /* SwiftUI+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI+Extensions.swift"; sourceTree = "<group>"; };
 		0C3245B42870E40100BFBD12 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		0C3245B72870E7D200BFBD12 /* WebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewModel.swift; sourceTree = "<group>"; };
+		0C3245B92870E81100BFBD12 /* WebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVC.swift; sourceTree = "<group>"; };
+		0C3245BA2870E81100BFBD12 /* WebVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebVC.xib; sourceTree = "<group>"; };
+		0C3245BD2870E8DD00BFBD12 /* WKWebView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WKWebView+Extensions.swift"; sourceTree = "<group>"; };
 		0C6135282870222000F234DB /* Netflix_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netflix_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C61352B2870222000F234DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C61352F2870222000F234DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -260,6 +268,7 @@
 			children = (
 				0C32459B2870CC3D00BFBD12 /* UIWindow+Extensions.swift */,
 				0C3245AC2870DED500BFBD12 /* UIApplication+Extensions.swift */,
+				0C3245BD2870E8DD00BFBD12 /* WKWebView+Extensions.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -306,6 +315,16 @@
 				0C3245B42870E40100BFBD12 /* PageControl.swift */,
 			);
 			path = PageControl;
+			sourceTree = "<group>";
+		};
+		0C3245B62870E7CB00BFBD12 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				0C3245B72870E7D200BFBD12 /* WebViewModel.swift */,
+				0C3245B92870E81100BFBD12 /* WebVC.swift */,
+				0C3245BA2870E81100BFBD12 /* WebVC.xib */,
+			);
+			path = WebView;
 			sourceTree = "<group>";
 		};
 		0C61351F2870222000F234DB = {
@@ -447,6 +466,7 @@
 		0CC22B4E2870557900BD6A7D /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				0C3245B62870E7CB00BFBD12 /* WebView */,
 				0C3245A02870D76000BFBD12 /* Onboarding */,
 				0CC22BDA2870864100BD6A7D /* Splash */,
 			);
@@ -805,6 +825,7 @@
 				0CC22BD0287085DD00BD6A7D /* dtmf_53.wav in Resources */,
 				0C3245AB2870D7B700BFBD12 /* OnboardingVC.xib in Resources */,
 				0CC22B85287059E100BD6A7D /* Router.plist in Resources */,
+				0C3245BC2870E81100BFBD12 /* WebVC.xib in Resources */,
 				0C6135352870222100F234DB /* Assets.xcassets in Resources */,
 				0CC22B9A28705E3600BD6A7D /* playPause.json in Resources */,
 				0C6135332870222000F234DB /* Main.storyboard in Resources */,
@@ -830,6 +851,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C3245AD2870DED500BFBD12 /* UIApplication+Extensions.swift in Sources */,
+				0C3245BE2870E8DD00BFBD12 /* WKWebView+Extensions.swift in Sources */,
 				0CC22B82287059B300BD6A7D /* Cast.swift in Sources */,
 				0CC22B8A28705CDA00BD6A7D /* Constants.swift in Sources */,
 				0CC22BDF2870865100BD6A7D /* SplashVM.swift in Sources */,
@@ -874,11 +896,13 @@
 				0C3245B52870E40100BFBD12 /* PageControl.swift in Sources */,
 				0CC22B672870588E00BD6A7D /* Fonts.swift in Sources */,
 				0C3245962870CA3800BFBD12 /* SessionResponse.swift in Sources */,
+				0C3245BB2870E81100BFBD12 /* WebVC.swift in Sources */,
 				0C3245942870C99500BFBD12 /* AuthenticationRepository.swift in Sources */,
 				0CC22BA3287060CB00BD6A7D /* APISession.swift in Sources */,
 				0CC22B7B2870597100BD6A7D /* TVSeason.swift in Sources */,
 				0C61352C2870222000F234DB /* AppDelegate.swift in Sources */,
 				0CC22BAC287063B400BD6A7D /* APIError.swift in Sources */,
+				0C3245B82870E7D200BFBD12 /* WebViewModel.swift in Sources */,
 				0CC22BB128707B8200BD6A7D /* Controller.swift in Sources */,
 				0CC22BE628708AE200BD6A7D /* VideoPlayerView.swift in Sources */,
 			);

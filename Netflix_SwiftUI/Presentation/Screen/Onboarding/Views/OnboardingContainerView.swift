@@ -18,6 +18,7 @@ struct OnboardingContainerView: View {
                         ForEach(OnboardingStep.allCases.indices, id: \.self) { index in
                             OnboardingView(onboardingStep: OnboardingStep.allCases[index])
                                 .position(x: proxy.size.width / 2, y: proxy.size.height / 2 - 100)
+                                .background(Color.black)
                         }
                     }
                     

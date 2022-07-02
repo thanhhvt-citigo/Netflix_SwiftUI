@@ -22,7 +22,6 @@ class OnboardingVC: Controller<OnboardingVM> {
     private func setupNavigationBar() {
         let helpButtonItem = UIBarButtonItem(title: L10n.onboardingNavigationHelp, style: .done, target: self, action: #selector(showHelpScreen))
         let privacyButtonItem = UIBarButtonItem(title: L10n.onboardingNavigationPrivacy, style: .done, target: self, action: #selector(showPrivacyScreen))
-        
         navigationItem.rightBarButtonItems = [privacyButtonItem, helpButtonItem]
         navigationController?.navigationBar.tintColor = .white
         helpButtonItem.setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: 14, weight: .semibold)], for: .normal)
@@ -41,11 +40,13 @@ class OnboardingVC: Controller<OnboardingVM> {
     }
     
     @objc private func showHelpScreen() {
-        
+        let webVC = WebVC(vm: .init(url: Router.helpURL))
+        present(NavigationController(rootViewController: webVC), animated: true)
     }
     
     @objc private func showPrivacyScreen() {
-        
+        let webVC = WebVC(vm: .init(url: Router.privacyURL))
+        present(NavigationController(rootViewController: webVC), animated: true)
     }
     
     private func setupBindings() {

@@ -113,7 +113,7 @@ class Controller<VM: ViewModel>: UIViewController {
     private func setupDefaultBackButton() {
         if self != navigationController?.viewControllers.first {
             navigationItem.leftBarButtonItem = defaultBackBarButton
-            defaultBackButton.addTarget(self, action: #selector(UINavigationController.popViewController(animated:)), for: .touchUpInside)
+            defaultBackButton.addTarget(self, action: #selector(NavigationController.popViewController(animated:)), for: .touchUpInside)
         }
     }
     

@@ -23,7 +23,7 @@ class SplashVC: Controller<SplashVM> {
         vm.showOnboardingTrigger
             .sink { _ in
                 let onboardingVC = OnboardingVC(vm: .init())
-                UIApplication.shared.currentWindow?.switchRootViewController(to: UINavigationController(rootViewController: onboardingVC))
+                UIApplication.shared.currentWindow?.switchRootViewController(to: NavigationController(rootViewController: onboardingVC))
             }
             .store(in: &cancellables)
     }
