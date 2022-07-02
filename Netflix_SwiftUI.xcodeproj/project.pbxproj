@@ -59,6 +59,10 @@
 		0CC22BA72870612900BD6A7D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC22BA62870612900BD6A7D /* APIClient.swift */; };
 		0CC22BA9287061A200BD6A7D /* APIResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC22BA8287061A200BD6A7D /* APIResult.swift */; };
 		0CC22BAC287063B400BD6A7D /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC22BAB287063B400BD6A7D /* APIError.swift */; };
+		0CC22BAF28707B2D00BD6A7D /* FixedHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC22BAE28707B2D00BD6A7D /* FixedHostingController.swift */; };
+		0CC22BB128707B8200BD6A7D /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC22BB028707B8200BD6A7D /* Controller.swift */; };
+		0CC22BB328707B9D00BD6A7D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC22BB228707B9D00BD6A7D /* ViewModel.swift */; };
+		0CC22BB628707F0B00BD6A7D /* Publisher+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC22BB528707F0B00BD6A7D /* Publisher+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +110,10 @@
 		0CC22BA62870612900BD6A7D /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		0CC22BA8287061A200BD6A7D /* APIResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResult.swift; sourceTree = "<group>"; };
 		0CC22BAB287063B400BD6A7D /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		0CC22BAE28707B2D00BD6A7D /* FixedHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedHostingController.swift; sourceTree = "<group>"; };
+		0CC22BB028707B8200BD6A7D /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		0CC22BB228707B9D00BD6A7D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		0CC22BB528707F0B00BD6A7D /* Publisher+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publisher+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +253,9 @@
 		0CC22B4C2870557100BD6A7D /* Based */ = {
 			isa = PBXGroup;
 			children = (
+				0CC22BAE28707B2D00BD6A7D /* FixedHostingController.swift */,
+				0CC22BB028707B8200BD6A7D /* Controller.swift */,
+				0CC22BB228707B9D00BD6A7D /* ViewModel.swift */,
 			);
 			path = Based;
 			sourceTree = "<group>";
@@ -289,6 +300,7 @@
 		0CC22B512870559A00BD6A7D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				0CC22BB428707EFA00BD6A7D /* Combine */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -419,6 +431,14 @@
 			path = Based;
 			sourceTree = "<group>";
 		};
+		0CC22BB428707EFA00BD6A7D /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				0CC22BB528707F0B00BD6A7D /* Publisher+Extensions.swift */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -529,9 +549,12 @@
 			files = (
 				0CC22B82287059B300BD6A7D /* Cast.swift in Sources */,
 				0CC22B8A28705CDA00BD6A7D /* Constants.swift in Sources */,
+				0CC22BAF28707B2D00BD6A7D /* FixedHostingController.swift in Sources */,
 				0CC22B792870595F00BD6A7D /* TVEpisode.swift in Sources */,
+				0CC22BB628707F0B00BD6A7D /* Publisher+Extensions.swift in Sources */,
 				0CC22BA12870609800BD6A7D /* NetworkManager.swift in Sources */,
 				0C6135302870222000F234DB /* ViewController.swift in Sources */,
+				0CC22BB328707B9D00BD6A7D /* ViewModel.swift in Sources */,
 				0CC22B702870590900BD6A7D /* Language.swift in Sources */,
 				0CC22BA9287061A200BD6A7D /* APIResult.swift in Sources */,
 				0CC22B762870594D00BD6A7D /* Network.swift in Sources */,
@@ -553,6 +576,7 @@
 				0CC22B7B2870597100BD6A7D /* TVSeason.swift in Sources */,
 				0C61352C2870222000F234DB /* AppDelegate.swift in Sources */,
 				0CC22BAC287063B400BD6A7D /* APIError.swift in Sources */,
+				0CC22BB128707B8200BD6A7D /* Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
