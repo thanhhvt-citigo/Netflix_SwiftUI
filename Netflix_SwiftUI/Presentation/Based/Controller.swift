@@ -45,6 +45,10 @@ class Controller<VM: ViewModel>: UIViewController {
         let customBackButton = UIBarButtonItem(customView: containerView)
         return customBackButton
     }()
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        .lightContent
+    }
 
     override var prefersStatusBarHidden: Bool {
         return false

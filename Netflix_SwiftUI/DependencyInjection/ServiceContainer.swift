@@ -22,6 +22,16 @@ class ServiceContainer: DIContainer {
         }
         .inObjectScope(.container)
         
+        container.register(AuthenticationUseCase.self) { _ in
+            AuthenticationRepositoryImpl()
+        }
+        .inObjectScope(.container)
+        
+        container.register(UserDefaultsManager.self) { _ in
+            UserDefaultsManagerImpl()
+        }
+        .inObjectScope(.container)
+        
         return container
     }
 }

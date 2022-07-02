@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C32458D2870C8C200BFBD12 /* AuthenticationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C32458C2870C8C200BFBD12 /* AuthenticationUseCase.swift */; };
+		0C3245902870C91200BFBD12 /* NewRequestTokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C32458F2870C91200BFBD12 /* NewRequestTokenResponse.swift */; };
+		0C3245942870C99500BFBD12 /* AuthenticationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3245932870C99500BFBD12 /* AuthenticationRepository.swift */; };
+		0C3245962870CA3800BFBD12 /* SessionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3245952870CA3800BFBD12 /* SessionResponse.swift */; };
+		0C3245992870CA8100BFBD12 /* AccountDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3245982870CA8100BFBD12 /* AccountDetail.swift */; };
+		0C32459C2870CC3D00BFBD12 /* UIWindow+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C32459B2870CC3D00BFBD12 /* UIWindow+Extensions.swift */; };
 		0C61352C2870222000F234DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C61352B2870222000F234DB /* AppDelegate.swift */; };
 		0C6135302870222000F234DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C61352F2870222000F234DB /* ViewController.swift */; };
 		0C6135332870222000F234DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6135312870222000F234DB /* Main.storyboard */; };
@@ -63,9 +69,37 @@
 		0CC22BB128707B8200BD6A7D /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC22BB028707B8200BD6A7D /* Controller.swift */; };
 		0CC22BB328707B9D00BD6A7D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC22BB228707B9D00BD6A7D /* ViewModel.swift */; };
 		0CC22BB628707F0B00BD6A7D /* Publisher+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC22BB528707F0B00BD6A7D /* Publisher+Extensions.swift */; };
+		0CC22BBB287083F900BD6A7D /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC22BBA287083F900BD6A7D /* UserDefaultsManager.swift */; };
+		0CC22BC02870857D00BD6A7D /* Netflix_N_video_small.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0CC22BBD2870857D00BD6A7D /* Netflix_N_video_small.mp4 */; };
+		0CC22BC12870857D00BD6A7D /* Netflix_N_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0CC22BBE2870857D00BD6A7D /* Netflix_N_video.mp4 */; };
+		0CC22BC22870857D00BD6A7D /* Netflix_N_video_large.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0CC22BBF2870857D00BD6A7D /* Netflix_N_video_large.mp4 */; };
+		0CC22BCF287085DD00BD6A7D /* dtmf_56.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0CC22BC4287085DD00BD6A7D /* dtmf_56.wav */; };
+		0CC22BD0287085DD00BD6A7D /* dtmf_53.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0CC22BC5287085DD00BD6A7D /* dtmf_53.wav */; };
+		0CC22BD1287085DD00BD6A7D /* dtmf_57.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0CC22BC6287085DD00BD6A7D /* dtmf_57.wav */; };
+		0CC22BD2287085DD00BD6A7D /* MESSAGE_SOUND_BOOM_BOOM.aif in Resources */ = {isa = PBXBuildFile; fileRef = 0CC22BC7287085DD00BD6A7D /* MESSAGE_SOUND_BOOM_BOOM.aif */; };
+		0CC22BD3287085DD00BD6A7D /* ringtone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0CC22BC8287085DD00BD6A7D /* ringtone.mp3 */; };
+		0CC22BD4287085DD00BD6A7D /* silence.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0CC22BC9287085DD00BD6A7D /* silence.wav */; };
+		0CC22BD5287085DD00BD6A7D /* dtmf_54.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0CC22BCA287085DD00BD6A7D /* dtmf_54.wav */; };
+		0CC22BD6287085DD00BD6A7D /* dtmf_51.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0CC22BCB287085DD00BD6A7D /* dtmf_51.wav */; };
+		0CC22BD7287085DD00BD6A7D /* dtmf_50.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0CC22BCC287085DD00BD6A7D /* dtmf_50.wav */; };
+		0CC22BD8287085DD00BD6A7D /* dtmf_52.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0CC22BCD287085DD00BD6A7D /* dtmf_52.wav */; };
+		0CC22BD9287085DD00BD6A7D /* dtmf_55.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0CC22BCE287085DD00BD6A7D /* dtmf_55.wav */; };
+		0CC22BDF2870865100BD6A7D /* SplashVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC22BDE2870865100BD6A7D /* SplashVM.swift */; };
+		0CC22BE12870866F00BD6A7D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC22BE02870866F00BD6A7D /* SplashView.swift */; };
+		0CC22BE4287087C800BD6A7D /* VideoPlayerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC22BE3287087C800BD6A7D /* VideoPlayerUIView.swift */; };
+		0CC22BE628708AE200BD6A7D /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC22BE528708AE200BD6A7D /* VideoPlayerView.swift */; };
+		0CC22BEA28708CB100BD6A7D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC22BE928708CB100BD6A7D /* Utility.swift */; };
+		0CC22BEF2870AD3900BD6A7D /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC22BED2870AD3900BD6A7D /* SplashVC.swift */; };
+		0CC22BF02870AD3900BD6A7D /* SplashVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CC22BEE2870AD3900BD6A7D /* SplashVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C32458C2870C8C200BFBD12 /* AuthenticationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationUseCase.swift; sourceTree = "<group>"; };
+		0C32458F2870C91200BFBD12 /* NewRequestTokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRequestTokenResponse.swift; sourceTree = "<group>"; };
+		0C3245932870C99500BFBD12 /* AuthenticationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationRepository.swift; sourceTree = "<group>"; };
+		0C3245952870CA3800BFBD12 /* SessionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionResponse.swift; sourceTree = "<group>"; };
+		0C3245982870CA8100BFBD12 /* AccountDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetail.swift; sourceTree = "<group>"; };
+		0C32459B2870CC3D00BFBD12 /* UIWindow+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extensions.swift"; sourceTree = "<group>"; };
 		0C6135282870222000F234DB /* Netflix_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netflix_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C61352B2870222000F234DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C61352F2870222000F234DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +148,28 @@
 		0CC22BB028707B8200BD6A7D /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 		0CC22BB228707B9D00BD6A7D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		0CC22BB528707F0B00BD6A7D /* Publisher+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publisher+Extensions.swift"; sourceTree = "<group>"; };
+		0CC22BBA287083F900BD6A7D /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		0CC22BBD2870857D00BD6A7D /* Netflix_N_video_small.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Netflix_N_video_small.mp4; sourceTree = "<group>"; };
+		0CC22BBE2870857D00BD6A7D /* Netflix_N_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Netflix_N_video.mp4; sourceTree = "<group>"; };
+		0CC22BBF2870857D00BD6A7D /* Netflix_N_video_large.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Netflix_N_video_large.mp4; sourceTree = "<group>"; };
+		0CC22BC4287085DD00BD6A7D /* dtmf_56.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dtmf_56.wav; sourceTree = "<group>"; };
+		0CC22BC5287085DD00BD6A7D /* dtmf_53.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dtmf_53.wav; sourceTree = "<group>"; };
+		0CC22BC6287085DD00BD6A7D /* dtmf_57.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dtmf_57.wav; sourceTree = "<group>"; };
+		0CC22BC7287085DD00BD6A7D /* MESSAGE_SOUND_BOOM_BOOM.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = MESSAGE_SOUND_BOOM_BOOM.aif; sourceTree = "<group>"; };
+		0CC22BC8287085DD00BD6A7D /* ringtone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ringtone.mp3; sourceTree = "<group>"; };
+		0CC22BC9287085DD00BD6A7D /* silence.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = silence.wav; sourceTree = "<group>"; };
+		0CC22BCA287085DD00BD6A7D /* dtmf_54.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dtmf_54.wav; sourceTree = "<group>"; };
+		0CC22BCB287085DD00BD6A7D /* dtmf_51.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dtmf_51.wav; sourceTree = "<group>"; };
+		0CC22BCC287085DD00BD6A7D /* dtmf_50.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dtmf_50.wav; sourceTree = "<group>"; };
+		0CC22BCD287085DD00BD6A7D /* dtmf_52.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dtmf_52.wav; sourceTree = "<group>"; };
+		0CC22BCE287085DD00BD6A7D /* dtmf_55.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dtmf_55.wav; sourceTree = "<group>"; };
+		0CC22BDE2870865100BD6A7D /* SplashVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVM.swift; sourceTree = "<group>"; };
+		0CC22BE02870866F00BD6A7D /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		0CC22BE3287087C800BD6A7D /* VideoPlayerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerUIView.swift; sourceTree = "<group>"; };
+		0CC22BE528708AE200BD6A7D /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		0CC22BE928708CB100BD6A7D /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		0CC22BED2870AD3900BD6A7D /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		0CC22BEE2870AD3900BD6A7D /* SplashVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +194,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C32458B2870C8BA00BFBD12 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				0C32458C2870C8C200BFBD12 /* AuthenticationUseCase.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		0C32458E2870C90500BFBD12 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				0C32458F2870C91200BFBD12 /* NewRequestTokenResponse.swift */,
+				0C3245952870CA3800BFBD12 /* SessionResponse.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		0C3245912870C97B00BFBD12 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				0C3245922870C98400BFBD12 /* Authentication */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		0C3245922870C98400BFBD12 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				0C3245932870C99500BFBD12 /* AuthenticationRepository.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		0C3245972870CA7900BFBD12 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				0C3245982870CA8100BFBD12 /* AccountDetail.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		0C32459A2870CC2C00BFBD12 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				0C32459B2870CC3D00BFBD12 /* UIWindow+Extensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		0C61351F2870222000F234DB = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +262,7 @@
 		0C61352A2870222000F234DB /* Netflix_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				0CC22BB7287083CC00BD6A7D /* Data */,
 				0CC22B502870558700BD6A7D /* Supporting Files */,
 				0CC22B4F2870558300BD6A7D /* Utils */,
 				0CC22B4B2870556500BD6A7D /* Presentation */,
@@ -201,6 +307,7 @@
 		0CC22B472870552000BD6A7D /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				0C32458B2870C8BA00BFBD12 /* Authentication */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -208,6 +315,7 @@
 		0CC22B482870552400BD6A7D /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				0C3245972870CA7900BFBD12 /* Account */,
 				0CC22B7C2870598E00BD6A7D /* People */,
 				0CC22B772870595300BD6A7D /* Episode */,
 				0CC22B742870594200BD6A7D /* Network */,
@@ -263,6 +371,7 @@
 		0CC22B4D2870557500BD6A7D /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				0CC22BE2287087BB00BD6A7D /* PlayerView */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -270,6 +379,7 @@
 		0CC22B4E2870557900BD6A7D /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				0CC22BDA2870864100BD6A7D /* Splash */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -286,6 +396,8 @@
 		0CC22B502870558700BD6A7D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0CC22BC3287085D300BD6A7D /* Sounds */,
+				0CC22BBC2870856600BD6A7D /* Videos */,
 				0CC22B8D28705E2900BD6A7D /* Lottie */,
 				0CC22B83287059CD00BD6A7D /* Plist */,
 				0CC22B572870568500BD6A7D /* Localization */,
@@ -300,6 +412,7 @@
 		0CC22B512870559A00BD6A7D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				0C32459A2870CC2C00BFBD12 /* UIKit */,
 				0CC22BB428707EFA00BD6A7D /* Combine */,
 			);
 			path = Extensions;
@@ -395,6 +508,7 @@
 			isa = PBXGroup;
 			children = (
 				0CC22B8928705CDA00BD6A7D /* Constants.swift */,
+				0CC22BE928708CB100BD6A7D /* Utility.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -418,6 +532,7 @@
 		0CC22BAA287063AC00BD6A7D /* Response */ = {
 			isa = PBXGroup;
 			children = (
+				0C32458E2870C90500BFBD12 /* Authentication */,
 				0CC22BAD287063B800BD6A7D /* Based */,
 			);
 			path = Response;
@@ -437,6 +552,87 @@
 				0CC22BB528707F0B00BD6A7D /* Publisher+Extensions.swift */,
 			);
 			path = Combine;
+			sourceTree = "<group>";
+		};
+		0CC22BB7287083CC00BD6A7D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0C3245912870C97B00BFBD12 /* Repositories */,
+				0CC22BB8287083D000BD6A7D /* LocalStorage */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0CC22BB8287083D000BD6A7D /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				0CC22BB9287083D500BD6A7D /* UserDefaults */,
+			);
+			path = LocalStorage;
+			sourceTree = "<group>";
+		};
+		0CC22BB9287083D500BD6A7D /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				0CC22BBA287083F900BD6A7D /* UserDefaultsManager.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		0CC22BBC2870856600BD6A7D /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				0CC22BBF2870857D00BD6A7D /* Netflix_N_video_large.mp4 */,
+				0CC22BBD2870857D00BD6A7D /* Netflix_N_video_small.mp4 */,
+				0CC22BBE2870857D00BD6A7D /* Netflix_N_video.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		0CC22BC3287085D300BD6A7D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0CC22BCC287085DD00BD6A7D /* dtmf_50.wav */,
+				0CC22BCB287085DD00BD6A7D /* dtmf_51.wav */,
+				0CC22BCD287085DD00BD6A7D /* dtmf_52.wav */,
+				0CC22BC5287085DD00BD6A7D /* dtmf_53.wav */,
+				0CC22BCA287085DD00BD6A7D /* dtmf_54.wav */,
+				0CC22BCE287085DD00BD6A7D /* dtmf_55.wav */,
+				0CC22BC4287085DD00BD6A7D /* dtmf_56.wav */,
+				0CC22BC6287085DD00BD6A7D /* dtmf_57.wav */,
+				0CC22BC7287085DD00BD6A7D /* MESSAGE_SOUND_BOOM_BOOM.aif */,
+				0CC22BC8287085DD00BD6A7D /* ringtone.mp3 */,
+				0CC22BC9287085DD00BD6A7D /* silence.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		0CC22BDA2870864100BD6A7D /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				0CC22BDE2870865100BD6A7D /* SplashVM.swift */,
+				0CC22BDD2870864B00BD6A7D /* Views */,
+				0CC22BED2870AD3900BD6A7D /* SplashVC.swift */,
+				0CC22BEE2870AD3900BD6A7D /* SplashVC.xib */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		0CC22BDD2870864B00BD6A7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0CC22BE02870866F00BD6A7D /* SplashView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0CC22BE2287087BB00BD6A7D /* PlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				0CC22BE3287087C800BD6A7D /* VideoPlayerUIView.swift */,
+				0CC22BE528708AE200BD6A7D /* VideoPlayerView.swift */,
+			);
+			path = PlayerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -525,17 +721,32 @@
 				0CC22B5F2870572700BD6A7D /* Localizable.strings in Resources */,
 				0CC22B9F28705E3600BD6A7D /* remindMe.json in Resources */,
 				0C6135382870222100F234DB /* LaunchScreen.storyboard in Resources */,
+				0CC22BD6287085DD00BD6A7D /* dtmf_51.wav in Resources */,
 				0CC22B9C28705E3600BD6A7D /* ratings-all.json in Resources */,
 				0CC22B9B28705E3600BD6A7D /* redrings.json in Resources */,
+				0CC22BD9287085DD00BD6A7D /* dtmf_55.wav in Resources */,
 				0CC22B56287055F900BD6A7D /* Colors.xcassets in Resources */,
 				0CC22B9728705E3600BD6A7D /* icon-addList.json in Resources */,
+				0CC22BCF287085DD00BD6A7D /* dtmf_56.wav in Resources */,
+				0CC22BD5287085DD00BD6A7D /* dtmf_54.wav in Resources */,
+				0CC22BD3287085DD00BD6A7D /* ringtone.mp3 in Resources */,
+				0CC22BC22870857D00BD6A7D /* Netflix_N_video_large.mp4 in Resources */,
+				0CC22BD7287085DD00BD6A7D /* dtmf_50.wav in Resources */,
+				0CC22BD0287085DD00BD6A7D /* dtmf_53.wav in Resources */,
 				0CC22B85287059E100BD6A7D /* Router.plist in Resources */,
 				0C6135352870222100F234DB /* Assets.xcassets in Resources */,
 				0CC22B9A28705E3600BD6A7D /* playPause.json in Resources */,
 				0C6135332870222000F234DB /* Main.storyboard in Resources */,
 				0CC22B9D28705E3600BD6A7D /* download-dp-icon.json in Resources */,
+				0CC22BC12870857D00BD6A7D /* Netflix_N_video.mp4 in Resources */,
 				0CC22B9E28705E3600BD6A7D /* checkAnimation.json in Resources */,
+				0CC22BD4287085DD00BD6A7D /* silence.wav in Resources */,
+				0CC22BC02870857D00BD6A7D /* Netflix_N_video_small.mp4 in Resources */,
+				0CC22BD1287085DD00BD6A7D /* dtmf_57.wav in Resources */,
+				0CC22BD8287085DD00BD6A7D /* dtmf_52.wav in Resources */,
 				0CC22B9828705E3600BD6A7D /* countdown.json in Resources */,
+				0CC22BF02870AD3900BD6A7D /* SplashVC.xib in Resources */,
+				0CC22BD2287085DD00BD6A7D /* MESSAGE_SOUND_BOOM_BOOM.aif in Resources */,
 				0CC22B9928705E3600BD6A7D /* playSpinner.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -549,34 +760,47 @@
 			files = (
 				0CC22B82287059B300BD6A7D /* Cast.swift in Sources */,
 				0CC22B8A28705CDA00BD6A7D /* Constants.swift in Sources */,
+				0CC22BDF2870865100BD6A7D /* SplashVM.swift in Sources */,
 				0CC22BAF28707B2D00BD6A7D /* FixedHostingController.swift in Sources */,
 				0CC22B792870595F00BD6A7D /* TVEpisode.swift in Sources */,
+				0CC22BBB287083F900BD6A7D /* UserDefaultsManager.swift in Sources */,
 				0CC22BB628707F0B00BD6A7D /* Publisher+Extensions.swift in Sources */,
+				0C32459C2870CC3D00BFBD12 /* UIWindow+Extensions.swift in Sources */,
 				0CC22BA12870609800BD6A7D /* NetworkManager.swift in Sources */,
+				0C3245902870C91200BFBD12 /* NewRequestTokenResponse.swift in Sources */,
+				0CC22BEF2870AD3900BD6A7D /* SplashVC.swift in Sources */,
 				0C6135302870222000F234DB /* ViewController.swift in Sources */,
 				0CC22BB328707B9D00BD6A7D /* ViewModel.swift in Sources */,
 				0CC22B702870590900BD6A7D /* Language.swift in Sources */,
 				0CC22BA9287061A200BD6A7D /* APIResult.swift in Sources */,
 				0CC22B762870594D00BD6A7D /* Network.swift in Sources */,
 				0CC22B7E2870599600BD6A7D /* People.swift in Sources */,
+				0C3245992870CA8100BFBD12 /* AccountDetail.swift in Sources */,
 				0CC22B6E287058F000BD6A7D /* Country.swift in Sources */,
 				0CC22B80287059A400BD6A7D /* Crew.swift in Sources */,
+				0C32458D2870C8C200BFBD12 /* AuthenticationUseCase.swift in Sources */,
+				0CC22BEA28708CB100BD6A7D /* Utility.swift in Sources */,
 				0CC22B682870588E00BD6A7D /* Assets.swift in Sources */,
 				0CC22BA72870612900BD6A7D /* APIClient.swift in Sources */,
 				0CC22B44287054D500BD6A7D /* ServiceContainer.swift in Sources */,
 				0CC22B662870588E00BD6A7D /* Strings.swift in Sources */,
 				0CC22B42287054CB00BD6A7D /* DIContainer.swift in Sources */,
+				0CC22BE4287087C800BD6A7D /* VideoPlayerUIView.swift in Sources */,
 				0CC22B8728705A2300BD6A7D /* Plist.swift in Sources */,
 				0CC22B8C28705D8500BD6A7D /* API.swift in Sources */,
+				0CC22BE12870866F00BD6A7D /* SplashView.swift in Sources */,
 				0CC22BA5287060FA00BD6A7D /* HTTPStatusCodes.swift in Sources */,
 				0CC22B732870592900BD6A7D /* Company.swift in Sources */,
 				0CC22B6B287058DA00BD6A7D /* Video.swift in Sources */,
 				0CC22B672870588E00BD6A7D /* Fonts.swift in Sources */,
+				0C3245962870CA3800BFBD12 /* SessionResponse.swift in Sources */,
+				0C3245942870C99500BFBD12 /* AuthenticationRepository.swift in Sources */,
 				0CC22BA3287060CB00BD6A7D /* APISession.swift in Sources */,
 				0CC22B7B2870597100BD6A7D /* TVSeason.swift in Sources */,
 				0C61352C2870222000F234DB /* AppDelegate.swift in Sources */,
 				0CC22BAC287063B400BD6A7D /* APIError.swift in Sources */,
 				0CC22BB128707B8200BD6A7D /* Controller.swift in Sources */,
+				0CC22BE628708AE200BD6A7D /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

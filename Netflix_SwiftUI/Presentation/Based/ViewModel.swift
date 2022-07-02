@@ -31,7 +31,7 @@ class ViewModel {
     // handle view controller's state in viewmodel
     let lifeCycle = PassthroughSubject<LifeCycle, Never>()
 
-    private(set) var cancellables = Set<AnyCancellable>()
+    var cancellables = Set<AnyCancellable>()
 }
 
 class Inputs<Base> {
